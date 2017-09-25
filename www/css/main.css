@@ -400,7 +400,7 @@ path {
     font-size: 18px;
 }
 #uid29 {
-    background-color: rgb(239, 232, 80);
+    background-color: #ffffff;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -410,32 +410,32 @@ path {
     border-bottom-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
-    border-color: rgb(234, 224, 22);
+    border-color: #ffffff;
     padding-top: 9px;
     padding-bottom: 10px;
     padding-left: 29px;
     padding-right: 29px;
     font-size: 14px;
-    color: rgb(0, 0, 0);
+    color: #ff404e;
 }
 #uid29:hover,
 #uid29.hover {
-    background-color: rgb(236, 228, 51);
-    border-color: rgb(187, 180, 17);
-    color: rgb(0, 0, 0);
+    background-color: #dedbdb;
+    border-color: #dedbdb;
+    color: #ff404e;
 }
 #uid29:active,
 #uid29.active {
-    background-color: rgb(236, 228, 51);
-    border-color: rgb(210, 202, 19);
-    color: rgb(0, 0, 0);
+    background-color: #dedbdb;
+    border-color: #dedbdb;
+    color: #ff404e;
 }
 #uid29:before {
-    background-color: rgb(236, 228, 51);
+    background-color: #dedbdb;
 }
 #uid29:active:before,
 #uid29.active:before {
-    background-color: rgb(236, 228, 51);
+    background-color: #dedbdb;
 }
 #uid29 .fa {
     font-size: 18px;
@@ -881,22 +881,60 @@ path {
     padding-bottom: 5px;
     /* Расстояние от текста до линии */
 }
-.title {
+.title_left {
     position: relative;
     color: #1a1a1a;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
-    margin-left: 11%;
+    margin-left: 15%;
 }
-
-.title:before {
+.title_left:before {
     position: absolute;
     display: block;
     content: "";
-    width: 50%;
+    width: 35%;
     top: 18px;
     right: 110%;
     z-index: 1;
     border: 2px solid #ff404e;
+    border-radius: 10px;
+}
+.title_middle {
+    position: relative;
+    color: #1a1a1a;
+    font-size: 32px;
+    font-weight: 700;
+}
+.title_middle:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 35%;
+    top: 18px;
+    right: 110%;
+    z-index: 1;
+    border: 2px solid #ff404e;
+    border-radius: 10px;
+}
+.title_middle:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 35%;
+    top: 18px;
+    left: 110%;
+    z-index: 1;
+    border: 2px solid #ff404e;
+    border-radius: 10px;
+}
+.title_left_white:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 35%;
+    top: 45px;
+    right: 100%;
+    z-index: 1;
+    border: 1px solid #ffffff;
     border-radius: 10px;
 }
